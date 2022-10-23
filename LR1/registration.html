@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<h1></h1>
+		<link rel="stylesheet" href="./registration.css">
+	</head>
+   <script src="/assets/js/jquery-3.5.1.min.js"></script>
+	
+			
+			
+
+
+	<form>
+
+		<div class="parent">
+			<div class="block">
+			<div> Имя <br> <input required> </input> 
+			<br> Фамилия <br> <input required></input> 
+			<br> Почта  <br> <input required> </input> 
+			<br> Телефон <br> <input required class="input-number"></input> 
+			<script> $('body').on('input', '.input-number', function(){
+	this.value = this.value.replace(/[^0-9]/g, '');
+});</script>
+			<br> Логин <br> <input required> </input> 
+			<br> Пароль <br> <input required></input> </div>
+			
+			<br> Пол <br> 
+			
+  <div>
+    <input type="radio" id="gender1"
+     name="contact" value="email" checked>
+    <label for="gender1">Мужской</label>
+
+    <input type="radio" id="gender2"
+     name="contact" value="mail">
+    <label for="gender2">Женский</label>
+  </div>
+			<div>
+			
+			<input name="buttonRegistration" type="submit" value="Зарегистрироваться">
+</div>
+			</div>
+			</div>
+		</form>
+			
+
+
+
+	</body>
+</div>
+</html>
+<!DOCTYPE>
+
